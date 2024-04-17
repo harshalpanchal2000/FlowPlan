@@ -14,6 +14,5 @@ st.header("Your Personalized Schedule:")
 
 tasks_and_goals = user_input.split("\n")
 
-for task_or_goal in tasks_and_goals:
-    st.write("- " + task_or_goal)
+
 
