@@ -10,7 +10,6 @@ st.write("Too much to do? Too little time? Meet FlowPlan: Your AI task-schedulin
 #st.header("Input your daily tasks and goals:")
 #user_input = st.text_area("Please list your daily tasks and goals here. For example:\n1. 8:00 AM - Breakfast\n2. 9:00 AM - Work on project X\n3. 12:30 PM - Lunch\n4. 3:00 PM - Gym session")
 
-# Load the tokenizer and model
 tokenizer = AutoTokenizer.from_pretrained("google/codegemma-7b-it")
 model = AutoModelForCausalLM.from_pretrained("google/codegemma-7b-it")
 
