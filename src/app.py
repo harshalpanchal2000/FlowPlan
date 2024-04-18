@@ -2,7 +2,7 @@ import streamlit as st
 
 # Title and Description
 st.title("FlowPlan: Seamlessly Navigate Your Day, Every Day.")
-st.write(""Too much to do? Too little time? Meet FlowPlan: Your AI task-scheduling assistant. Get a personalized schedule daily, effortlessly. FlowPlan takes your tasks, prioritizes, and optimizes your schedule automatically. Perfect plans, always."")
+st.write("Too much to do? Too little time? Meet FlowPlan: Your AI task-scheduling assistant. Get a personalized schedule daily, effortlessly. FlowPlan takes your tasks, prioritizes, and optimizes your schedule automatically. Perfect plans, always."")
 
 # Collecting User Input
 st.header("Input your daily tasks and goals:")
