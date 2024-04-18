@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Title and Description
-st.title("FlowPlan: Personalized Schedule Planner")
+st.title("FlowPlan: Seamlessly Navigate Your Day, Every Day.")
 st.write("FlowPlan helps you organize your daily tasks and long-term goals effortlessly.")
 
 # Collecting User Input
