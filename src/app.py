@@ -5,7 +5,7 @@ page_bg_img = """
 <style>
 [data-testid="stApp"] {
 background-color: #e5e5f7;
-opacity: 0.8;
+opacity: 0.6;
 background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );}
 </style>
 """
