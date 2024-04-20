@@ -4,7 +4,7 @@ from transformers import pipeline, Conversation
 page_bg_img = """
 <style>
 [data-testid="stApp"] {
-    background-image: url('https://example.com/your-image.jpg');
+    background-image: url('https://github.com/harshalpanchal2000/FlowPlan/blob/main/bg_image.png');
     background-repeat: no-repeat;
     background-size: cover; /* Adjust the background size as needed */
     background-position: center; /* Adjust the background position as needed */
