@@ -15,7 +15,7 @@ def flowplan(message: str) -> str:
         str: The generated response.
     """
     model_path = "https://github.com/your_username/your_repository/raw/main/model-00001-of-00004.safetensors"  # Replace with the Git LFS URL to your model
-    config_path = "https://github.com/your_username/your_repository/raw/main/config.json"  # Replace with the Git LFS URL to your model configuration file
+    config_path = "https://github.com/harshalpanchal2000/FlowPlan/blob/main/config.json"  # Replace with the Git LFS URL to your model configuration file
 
     # Generate response
     flowplan_pipeline = pipeline("text-generation", model=model_path)
