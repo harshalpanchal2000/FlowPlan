@@ -1,6 +1,19 @@
 import streamlit as st
 from transformers import pipeline, Conversation
 
+page_bg_img = """
+<style>
+[data-testid="stScreencast"] {
+background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );}
+</style>
+"""
+
+# Apply the custom CSS style to set the background image
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
+
 # Title and Description
 st.title("FlowPlan: Seamlessly Navigate Your Day, Every Day.")
 st.write("Too much to do? Too little time? Meet FlowPlan: Your AI task-scheduling assistant. Get a personalized schedule daily, effortlessly. FlowPlan takes your tasks, prioritizes, and optimizes your schedule automatically. Perfect plans, always.")
