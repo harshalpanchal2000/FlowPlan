@@ -4,9 +4,11 @@ from transformers import pipeline, Conversation
 page_bg_img = """
 <style>
 [data-testid="stApp"] {
-background-color: #e5e5f7;
-opacity: 0.6;
-background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );}
+    background-image: url('https://example.com/your-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust the background size as needed */
+    background-position: center; /* Adjust the background position as needed */
+}
 </style>
 """
 
